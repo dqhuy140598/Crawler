@@ -2,10 +2,10 @@ from crawler import Crawler
 
 if __name__ == '__main__':
 
-    consume_key = 'FeCHVi8onrpsVW2VoamEOazQv'
-    consume_key_secret = 'Ay8o9paYdQBEV18ZAY8YvWZimq3ZTX7LsZHz9BBZE7HpwVjqOt'
-    access_token = '960501231897554944-9oSkIQN3LBWw2HnS1r4bja4PP9Pqv7r'
-    access_token_secret = 'g340U7Ll7vEMZI80nUmygN60Qez30r6nxjsNAw8GAZkbk'
+    consume_key = 'YOUR CONSUME KEY'
+    consume_key_secret = 'YOUR CONSUME KEY SECRET'
+    access_token = 'YOUR ACCESS TOKEN KEY'
+    access_token_secret = 'YOUR ACCESS TOKEN KEY SECRET'
 
     crawler = Crawler(consumer_key=consume_key,
                       consumer_key_secret=consume_key_secret,
